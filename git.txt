@@ -1,0 +1,15 @@
+//Comandos basicos de github
+
+// añade todos los archivos 
+git add -A 
+
+// añadir cambios sin mandarlos
+git commit -m"Relación: mensaje"
+
+// mandar los cambios 
+git push
+
+// juntar la información de una rama a otra
+git branch secundaria // crea la rama secundaria
+git checkout main // cambia a la rama principal
+git merge secundaria // junta los cambios de secundaria a main
