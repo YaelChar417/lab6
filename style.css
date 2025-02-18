@@ -28,6 +28,13 @@ body{
     padding: 0;
 }
 
+.card h3{
+    font-size: 1.7rem;
+    padding-top: 10px;
+    margin: 0;
+    margin-top: 20px;
+}
+
 .card img{
     border-radius: 50%;
     border: 10px solid #690B22;
@@ -94,6 +101,13 @@ form select{
     border-right: 2px solid #30020d;
     cursor: pointer;
     transition: background-color .3s, border-bottom .3s, border-right .3s, border-radius .3s, text-shadow .3s;
+}
+
+.tiny__img .tiny--img{
+    border: none;
+    width: 20px;
+    box-shadow: none;
+    cursor: pointer;
 }
 
 .btn:hover{

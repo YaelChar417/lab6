@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venta</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.min.css">
     <link rel="icon" href="img/logo_cuchillo.jpg">
 </head>
 <body>
@@ -24,6 +24,7 @@
 
     <section id="Venta">
         <div class="card">
+            <h3>Ventas:</h3>
             <p>
                 A continuación puede seleccionar un producto de la siguiente lista y realizar su compra.
             </p>
@@ -42,19 +43,38 @@
                     <label>Subtotal:</label>
                     <input class="form__input short--input" id="subtotal" disabled readonly type="number">
                 </div>
-                <div>
+                <div class="tiny__img">
                     <label>IVA:</label>
                     <input class="form__input short--input" id="iva" disabled readonly type="number">
+                    <img id="info1" src="img/info_btn.png" alt="boton de información" class="tiny--img">
+                    <div id="infoIva" class="card"></div>
                 </div>
-                <div>
+                <div class="tiny__img">
                     <label>Total:</label>
                     <input class="form__input short--input" id="total" disabled readonly type="number">
+                    <img id="info2" src="img/info_btn.png" alt="boton de información" class="tiny--img">
+                    <div id="infoTotal" class="card"></div>
                 </div>
                 <div class="btn__container">
                     <button type="button" id="btn_calcular" class="btn">Calcular</button>
                 </div>
             </form>
             <div id="imgContainer"></div>
+        </div>
+    </section>
+
+    <section id="preguntas">
+        <div class="card">
+            <h3>Preguntas y fuentes</h3>
+            <p>¿Por qué es una buena práctica usar JavaScript para checar que sean válidos los inputs de las formas antes de enviar los datos al servidor?</p>
+            <p></p>
+            <p></p>
+            <p>¿Cómo puedes saltarte la seguridad de validaciones hechas con JavaScript?</p>
+            <p></p>
+            <p></p>
+            <p>Si te puedes saltar la seguridad de las validaciones de JavaScript, entonces ¿por qué la primera pregunta dice que es una buena práctica?</p>
+            <p></p>
+            <p></p>
         </div>
     </section>
     </main>
