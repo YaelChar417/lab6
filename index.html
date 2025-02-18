@@ -25,8 +25,8 @@
             <form>
                 <div>
                     <label>Producto:</label>
-                    <select id="productos" name="producto">
-                        <option value="" selected disabled>Selecciona una opción</option>
+                    <select id="producto" name="producto">
+                        <option value="nada" selected disabled>Selecciona una opción</option>
                         <option value="pollo">Carne de pollo (kg)</option>
                         <option value="res">Carne de res (kg)</option>
                         <option value="cerdo">Carne de cerdo (kg)</option>
@@ -44,6 +44,9 @@
                 <div>
                     <label>Total:</label>
                     <input class="form__input short--input" id="total" disabled readonly type="number">
+                </div>
+                <div class="btn__container">
+                    <button type="button" id="btn_calcular" class="btn">Calcular</button>
                 </div>
             </form>
             <div id="imgContainer"></div>
