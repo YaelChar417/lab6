@@ -1,0 +1,19 @@
+.container{
+    margin: 0;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.content{
+    margin: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.content > h1{
+    font-size: 2rem;
+}
+
+.content > p{
+    font-size: 1rem;
+}
